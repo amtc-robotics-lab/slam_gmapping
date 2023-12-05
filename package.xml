@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>slam_gmapping</name>
+  <version>1.4.2</version>
+  <description>ROS2 port.
+  </description>
+  <author>Brian Gerkey</author>
+  <maintainer email="rodrigo.salas@amtc.uchile.cl">Rodrigo Salas</maintainer>
+  <license>BSD</license>
+  <license>Apache 2.0</license>
+
+  <url>http://ros.org/wiki/gmapping</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>nav_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>message_filters</depend>
+  <depend>openslam_gmapping</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
